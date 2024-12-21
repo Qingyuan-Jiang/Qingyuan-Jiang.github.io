@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://qingyuan-jiang.github.io/sitemap.xml
+Sitemap: https://Qingyuan-Jiang.github.io/sitemap.xml
