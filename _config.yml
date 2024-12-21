@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Qingyuan's Website # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Qingyuan
 middle_name: blank
 last_name: Jiang
@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Qingyuan's Website # blog_name will be displayed in your blog page
+blog_description: Space for everything around me
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -267,8 +267,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Jiang]
+  first_name: [Qingyuan]
 
   style: apa
   locale: en

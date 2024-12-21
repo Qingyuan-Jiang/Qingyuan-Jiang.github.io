@@ -16,7 +16,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 [//]: # (Write your biography here. Tell the world about yourself. Link to your favorite [subreddit]&#40;http://reddit.com&#41;. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.)
@@ -28,3 +28,7 @@ social: false # includes social icons at the bottom of the page
 I'm a Ph.D. student from Computer Science Department, University of Minnesota, advised by [Volkan Isler](https://www-users.cse.umn.edu/~isler/). Previously I graduated from Mechanical Engineering Department, Tsinghua University.
 
 My general research area focus on the perception-oriented robot motion/view planning, using the tools such as generative models, reinforcement learning, etc.
+More specifically I solve human-involved robotics problem, such as following a human in the front with a robot, by predicting it's motion/poses, or planning views for 3D reconstruct a dynamic human in high fidelity.
+Please refer to the projects below.
+
+
