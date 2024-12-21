@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Qingyuan-Jiang
+#  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Qingyuan-Jiang/iros2024_poseForecasting
+  - Qingyuan-Jiang/view_planning_3dhuman
+#  - twbs/bootstrap
+#  - jquery/jquery
+#  - FortAwesome/Font-Awesome
+#  - mathjax/MathJax
+#  - jpswalsh/academicons
