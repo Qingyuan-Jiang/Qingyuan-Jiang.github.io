@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 subtitle: A traveler of my life journey. A explorer to everything in the world.
 
 profile:
