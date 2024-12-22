@@ -2,7 +2,7 @@
 layout: page
 title: Human Pose Forecasting
 description: Map-Aware Human Pose Prediction for Robot Follow-Ahead
-img: assets/img/projects/rfa/thumnail.png
+img: assets/img/projects/rfa/thumbnail.png
 importance: 1
 category: work
 related_publications: true
@@ -28,5 +28,3 @@ We also present a complete robot system that integrates our human pose forecasti
     We achieve robot follow-ahead task by predicting the human poses with environmental information.
 </div>
 
-
-{% endraw %}
