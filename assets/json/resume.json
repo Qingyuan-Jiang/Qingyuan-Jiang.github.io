@@ -16,21 +16,20 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "github",
+        "username": "Qingyuan Jiang",
+        "url": "https://Qingyuan-Jiang.github.io"
       }
     ]
   },
-  "work": [
+  "Career": [
     {
-      "name": "Computer Science, University of Minnesota",
-      "position": "Ph.D. Candidate",
-      "url": "https://example.com",
-      "startDate": "2019-09-01",
-      "endDate": "2025-09",
-      "summary": "Ph.D. in Robotics, Computer Vision, and Reinforcement Learning",
-      "highlights": ["Human Pose Forecasting", "Robot Follow-Ahead", "Closed-loop Diffusion Planning"]
+      "name": "Plus.AI",
+      "position": "Reinfocement Learning for Autonomous Driving Internship",
+      "startDate": "2024-05-20",
+      "endDate": "2024-08-13",
+      "summary": "Offline reinforcement learning for autonomous driving. Deployed trained agent into the ROS system with ONNX and TensorRT.",
+      "highlights": ["Offline Reinforcement Learning", "autonomous driving", "ONNX", "TensorRT"]
     }
   ],
   "education": [
@@ -39,7 +38,7 @@
       "location": "Minnesota, US",
       "url": "https://rsn-lab.github.io/",
       "area": "Robotics, Computer Vision, Reinforcement Learning",
-      "studyType": "PhD",
+      "studyType": "Doctor of Philosophy (Ph.D. Candidate)",
       "startDate": "2019-09-01",
       "endDate": "2025-12-01",
       "courses": ["3D Computer Vision, Machine Learning, Reinforcement Learning, Robotics"]
@@ -91,31 +90,52 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "3M Graduate Student Fellowship (4-year)",
+      "date": "2019-09-01",
+      "awarder": "University of Minnesota"
+    },
+    {
+      "title": "School Year Academic Scholarship (top 10%)",
+      "date": "2016",
+      "awarder": "Tsinghua University"
+    },
+    {
+      "title": "Civil Engagement and Sports Scholarship",
+      "date": "2016",
+      "awarder": "Tsinghua University"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Robotic System Building",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "ROS1 & ROS2",
+        "Mujoco, PyBullet, Rviz & Gazebo, V-REP (CoppeliaSim), and Unreal Engine"
+      ]
+    },
+    {
+      "name": "Mechanical Design",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "SolidWorks, AutoCAD, ",
+        "3D printing, Laser Cutting"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python, C++, Matlab, Java, Lua"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -125,40 +145,39 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "SportsVision",
+      "summary": "Automatic highlight extraction for basketball games",
+      "highlights": ["Video Analysis", "Action Recognition", "Multi-Object Tracking", "App Development"],
+      "startDate": "2022-01",
+      "endDate": "2023-06",
+      "url": "/_projects/sportsvision.md"
+    }
+  ],
+  "interests": [
+    {
+      "name": "110m Hurdles",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Record Holder of 110m Hurdles in Tsinghua University from 2016 till now",
+        "Champion of 110m Hurdles in Beijing University Track and Field Games in 2017 (Recreation level)"
+      ]
+    },
+    {
+      "name": "Basketball",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Member of Tsinghua University Basketball Team (Recreation League)",
+        "Caption of Chinese Student Basketball Team in the University of Minnesota (Recreation League)"
+      ]
+    },
+    {
+      "name": "Age of Empires IV",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Counquer level player since Season 5 (top 5% in the world)"
+      ]
     }
   ]
 }
