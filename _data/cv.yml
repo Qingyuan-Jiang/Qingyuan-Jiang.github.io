@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Qingyuan Jiang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 15th March 1997
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Minnesota - Twin City, United States
+      year: 2019 - today
       description:
         - Description 1.
         - Description 2.
