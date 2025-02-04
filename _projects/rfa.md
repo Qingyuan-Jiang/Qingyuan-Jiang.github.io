@@ -4,7 +4,7 @@ title: Human Pose Forecasting
 description: Map-Aware Human Pose Prediction for Robot Follow-Ahead
 img: assets/img/projects/rfa/thumbnail.png
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
