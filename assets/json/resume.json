@@ -73,7 +73,11 @@
       "startDate": "2024-05-20",
       "endDate": "2024-08-13",
       "summary": "Offline reinforcement learning for autonomous driving. Deployed trained agent into the ROS system with ONNX and TensorRT.",
-      "highlights": ["Offline Reinforcement Learning", "autonomous driving", "ONNX", "TensorRT"]
+      "highlights": [
+        "Implement Offline Reinforcement Learning (Offline-RL) algorithms for the vehicle controller, including Decision Transformer, Conservative Q-Learning (CQL), etc. Benchmark with imitation learning results and classical controllers such as pure pursuit.", 
+        "Collect large-scale datasets for the RL agent training from the existing driving database. Decode data points of desired features from ROS bags, synchronize between topics, and pre-process the data.", 
+        "Integrate the trained agent into the vehicle ROS system in C++ by exporting the model to ONNX and loading it with TensorRT. Conduct multiple unit tests and evaluate the performance in the simulator."
+      ]
     },
     {
       "name": "SportsVision",
@@ -81,7 +85,13 @@
       "startDate": "2022-01",
       "endDate": "2023-06",
       "summary": "Automatic highlight extraction for basketball games",
-      "highlights": ["Video Analysis", "Action Recognition", "Multi-Object Tracking", "App Development"]
+      "highlights": [
+        "Used by 10K users; Deployed in 3 basketball courts with 8 cameras",
+        "Install cameras around the basketball court and provide auto-clipped highlights for players.", 
+        "Automatic goal detection using Yolo for basketball and human detection and designed algorithm.", 
+        "Multiple object tracking (MOT) for assigning highlight clips to different users.", 
+        "WeChat mini-App as the front end for users to select and download the clips."
+      ]
     }
   ],
   "projects": [
