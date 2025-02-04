@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 130</p>
+    <p>Room 130, </p>
     <p>100 Union St SE</p>
     <p>Minneapolis, MN 55455</p>
 
