@@ -47,7 +47,7 @@
     {
       "name": "Diffusion-based Robot planning with Recursive Bayesian Filter [Title modified to ensure blind review]",
       "publisher": "Submitted to Robotics: Science and System (RSS) 2025.",
-      "releaseDate": "2024-10-14",
+      "releaseDate": "2025-01-28",
       "url": "/projects/cldp.md",
       "summary": "Use diffusion model to predict human motion distribution. Plan robot path based on the prediction using a Bayesian Filter in a closed form."
     },
