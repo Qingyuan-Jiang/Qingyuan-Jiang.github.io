@@ -20,7 +20,7 @@ Here are a few interesting results.
 
 <div class="row mt-3">
     <div class="col-12 mt-3 mt-md-0">
-        {% include video.liquid path="https://youtu.be/0QOnp4KwGao" class="img-fluid rounded z-depth-1" controls=true autoplay=true style="width: 80%;" %}
+        <iframe width="80%" height="315" src="https://www.youtube.com/embed/0QOnp4KwGao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
