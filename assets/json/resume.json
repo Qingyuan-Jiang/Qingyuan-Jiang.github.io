@@ -31,7 +31,7 @@
       "studyType": "Doctor of Philosophy (Ph.D. Candidate)",
       "startDate": "2019-09-01",
       "endDate": "2025-12-01",
-      "courses": ["3D Computer Vision, Machine Learning, Reinforcement Learning, Robotics"]
+      "courses": ["Robotics, 3D Computer Vision, Reinforcement Learning"]
     },
     {
       "institution": "Tsinghua University, China",
@@ -40,30 +40,37 @@
       "studyType": "Bachelor",
       "startDate": "2015-09-01",
       "endDate": "2019-07-01",
-      "courses": ["Mechanical Design, Control Theory, Robotics, Theortical/Fluid Mechanics"]
+      "courses": ["Mechanical Design, Control Theory, Theortical/Fluid Mechanics"]
     }
   ],
   "publications": [
     {
-      "name": "Map-Aware Human Pose Prediction for Robot Follow-Ahead",
-      "publisher": "IROS 2024 (Oral Presentation)",
+      "name": "Diffusion-based Robot planning with Recursive Bayesian Filter [Title modified to ensure blind review]",
+      "publisher": "Submitted to Robotics: Science and System (RSS) 2025.",
       "releaseDate": "2024-10-14",
-      "url": "https://qingyuan-jiang.github.io/iros2024_poseForecasting/",
-      "summary": "We address the environmental-conditioned human pose prediction problem in the context of robot follow-ahead."
+      "url": "/projects/cldp.md",
+      "summary": "Use diffusion model to predict human motion distribution. Plan robot path based on the prediction using a Bayesian Filter in a closed form."
+    },
+    {
+      "name": "Map-Aware Human Pose Prediction for Robot Follow-Ahead",
+      "publisher": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems, (IROS 2024, Oral Presentation).",
+      "releaseDate": "2024-10-14",
+      "url": "/projects/rfa.md",
+      "summary": "Address environmental-conditioned human pose prediction problem in the context of robot follow-ahead."
     },
     {
       "name": "Learning to Play Pursuit-Evasion with Visibility Constraints",
-      "publisher": "IROS 2021",
+      "publisher": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems, (IROS 2021).",
       "releaseDate": "2021-09-27",
       "url": "https://ieeexplore.ieee.org/document/9635959",
-      "summary": "We address the pursuit-evasion problem in mainly two aspects: an multi-agent reinforcement learning; a representation design for belief state (contaminated region) to improve Markovian property."
+      "summary": "Address pursuit-evasion problem in mainly two aspects: an multi-agent reinforcement learning; a representation design for belief state (contaminated region) to improve Markovian property."
     },
     {
       "name": "A Novel Parallel and Self-adaptive Robot Hand with Triple-shaft Pulley-belt Mechanisms",
-      "publisher": "ICIRA 2017",
+      "publisher": "International Conference on Intelligent Robotics and Applications (ICIRA) 2017",
       "releaseDate": "2017-08-16",
       "url": "https://link.springer.com/chapter/10.1007/978-3-319-65292-4_65",
-      "summary": "We design a noval parallel pinching and self-adapting grasping hand, TPM hand."
+      "summary": "Design a noval parallel pinching and self-adapting grasping hand, TPM hand."
     }
   ],
   "work": [
@@ -97,14 +104,14 @@
   "projects": [
     {
       "name": "Closed-loop Diffusion Planning",
-      "summary": "[paper] Diffusion-based Robot planning with Recursive Bayesian Filter [Title modified to ensure blind review] ",
+      "summary": "[paper] Diffusion-based Robot planning with Recursive Bayesian Filter [Title modified to ensure blind review]",
       "highlights": [
         "Generative model for human motion prediction: Using diffusion models to predict the future human motion distribution, conditioned on the environment and past human trajectory.", 
         "Closed-loop planning with posterior observation: Update the estimated human motion distribution using a recursive Bayesian filter and importance sampling technique. Plan the robot motion by updating the predicted distribution in a closed-loop manner with posterior human motion observations. Solve the robot planning problem."
       ],
       "startDate": "2024-02",
       "endDate": "2025-01",
-      "url": "/_projects/cldp.md"
+      "url": "/projects/cldp.md"
     },
     {
       "name": "Human Pose Prediction",
@@ -115,7 +122,7 @@
       ],
       "startDate": "2023-06",
       "endDate": "2024-03",
-      "url": "/_projects/rfa.md"
+      "url": "/projects/rfa.md"
     },
     {
       "name": "View Planning for Dynamic Objects",
