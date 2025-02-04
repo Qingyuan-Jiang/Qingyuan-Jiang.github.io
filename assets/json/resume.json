@@ -88,7 +88,10 @@
     {
       "name": "Closed-loop Diffusion Planning",
       "summary": "[paper] Diffusion-based Robot planning with Recursive Bayesian Filter [Title modified to ensure blind review] ",
-      "highlights": ["Diffusion models", "Closed-loop Motion Planning", "Importance Sampling", "Bayesian Filter", "Human Motion Prediction"],
+      "highlights": [
+        "Generative model for human motion prediction: Using diffusion models to predict the future human motion distribution, conditioned on the environment and past human trajectory.", 
+        "Closed-loop planning with posterior observation: Update the estimated human motion distribution using a recursive Bayesian filter and importance sampling technique. Plan the robot motion by updating the predicted distribution in a closed-loop manner with posterior human motion observations. Solve the robot planning problem."
+      ],
       "startDate": "2024-02",
       "endDate": "2025-01",
       "url": "/_projects/cldp.md"
@@ -96,7 +99,10 @@
     {
       "name": "Human Pose Prediction",
       "summary": "[IROS 2024 Oral Presentation] Map-Aware Human Pose Prediction for Robot Follow-Ahead",
-      "highlights": ["Gated-Recurrent Network", "Human 3D Pose", "System Building"],
+      "highlights": [
+        "Human motion forecasting: Proposed a GRU-based method that predicts the human motion (3D skeleton poses) conditioned on the map information. Compared to the SOTA methods, we improve the accuracy while greatly shortening the inference time.", 
+        "Robot Follow-ahead: Build a robot that follows the human in the front. The robot can navigate through an indoor environment with an \textbf{SLAM} module while predicting the 3D skeleton poses of a dynamic human."
+      ],
       "startDate": "2023-06",
       "endDate": "2024-03",
       "url": "/_projects/rfa.md"
@@ -104,28 +110,23 @@
     {
       "name": "View Planning for Dynamic Objects",
       "summary": "Online view planning metric on dynamic object for high-fidelity 3D reconstruction",
-      "highlights": ["Gated-Recurrent Network", "Human 3D Pose", "System Building"],
+      "highlights": [
+        "View planning for 3D reconstruction: Propose viewing quality metric (Pixels-Per-Area) and design view planning strategy for tracking multiple dynamic actors online and 3D reconstructing offline.", 
+        "Drone system: Build a drone system that localizes a moving human, plans views to maintain viewing quality, and reconstructs offline by fusing consecutive views.", 
+        "Simulation: Evaluate the method in the Airsim (Unreal Engine) simulation environment and compare 3D reconstruction results with state-of-the-art methods."
+      ],
       "startDate": "2022-06",
       "endDate": "2023-03"
     },
     {
       "name": "Manpulation for Fruit-Picking",
       "summary": "RL-based manipulation for object grasping and fruit-picking with tactile feedback.",
-      "highlights": ["Reinforcement Learning", "Manipulation", "Motion Planning"],
+      "highlights": [
+        "RL-based manipulation: Train a Reinforcement Learning (RL) agent for a grasping task (fruit-picking) with tactile feedback. Benchmark with RRTs (implement from scratch) and other motion planning algorithms from the Open Motion Planning Library (OMPL). Simulate the manipulation in V-REP (CoppeliaSim).", 
+        "Hardware integration: Integrated tactile sensors into the manipulation system and conduct hand-eye calibration for the on-hand camera."
+      ],
       "startDate": "2018-01",
       "endDate": "2018-06"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "'Cuckoo Project' Annual Summer Charitable Program",
-      "location": "Chongqing, China",
-      "position": "Founder",
-      "url": "https://mp.weixin.qq.com/s/YqhEoGxGwTQgNfrf9YO-tQ",
-      "startDate": "2016-08",
-      "endDate": "2018-08",
-      "summary": "Organized summer camps for three consecutive years to empower 100+ “left-behind” Chinese children whose parents are absent due to economic displacement, with a team of 40+ volunteers. Raised Funds.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "awards": [
@@ -190,15 +191,16 @@
       "name": "110m Hurdles",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Record Holder of 110m Hurdles in Tsinghua University from 2016 till now",
-        "Champion of 110m Hurdles in Beijing University Track and Field Games in 2017 (Recreation level)"
+        "Record Holder: Tsinghua University 110m hurdles, 2016 - now",
+        "Beijing College Track and Field Championships (2017), 110 Hurdles Race (1st place), 200m Race (6th place)",
+        "Tsinghua University Annual Track and Field Meeting, 110 Hurdles Race (1st place in 4 years), 200m Race (1st place in 3 years)"
       ]
     },
     {
       "name": "Basketball",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Member of Tsinghua University Basketball Team (Recreation League)",
+        "Tsinghua University Varsity Basketball Team (Team Member, Recreation League)",
         "Caption of Chinese Student Basketball Team in the University of Minnesota (Recreation League)"
       ]
     },
@@ -207,6 +209,35 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Counquer level player since Season 5 (top 5% in the world)"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "'Cuckoo Project' Annual Summer Charitable Program",
+      "location": "Chongqing, China",
+      "position": "Founder",
+      "url": "https://mp.weixin.qq.com/s/YqhEoGxGwTQgNfrf9YO-tQ",
+      "startDate": "2016-08",
+      "endDate": "2018-08",
+      "summary": "Summer camps for three consecutive years to empower 100+ “left-behind” Chinese children whose parents are absent due to economic displacement, with a team of 40+ volunteers. Raised Funds.",
+      "highlights": [
+        "Organized summer camp in 3 consecutive years to empower 100+ “left-behind” Chinese children whose parents are absent due to economic displacement, with a team of 40+ volunteers.", 
+        "Raised 150,000 RMB (approximately $22,000) and set up logistics for the summer program by building relationships with partners from government, national non-profit and private sector.",
+        "Developed and managed evaluation procedures which culminated into annual project reports."
+      ]
+    },
+    {
+      "organization": "Study and Career Development Center in Student Union",
+      "location": "Beijing, China",
+      "position": "President Elected",
+      "startDate": "2017-11",
+      "endDate": "2018-11",
+      "summary": "Summer camps for three consecutive years to empower 100+ “left-behind” Chinese children whose parents are absent due to economic displacement, with a team of 40+ volunteers. Raised Funds.",
+      "highlights": [
+        "Led a committee of 20 members to improve departmental career services for 400+ students.", 
+        "Launched a career development mentor program which connects 20 pairs of students and alumni.",
+        "Established an alumni database which includes career information for 300+ alumni."
       ]
     }
   ]
