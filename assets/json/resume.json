@@ -22,16 +22,6 @@
       }
     ]
   },
-  "Career": [
-    {
-      "name": "Plus.AI",
-      "position": "Reinfocement Learning for Autonomous Driving Internship",
-      "startDate": "2024-05-20",
-      "endDate": "2024-08-13",
-      "summary": "Offline reinforcement learning for autonomous driving. Deployed trained agent into the ROS system with ONNX and TensorRT.",
-      "highlights": ["Offline Reinforcement Learning", "autonomous driving", "ONNX", "TensorRT"]
-    }
-  ],
   "education": [
     {
       "institution": "University of Minnesota, US",
@@ -56,7 +46,7 @@
   "publications": [
     {
       "name": "Map-Aware Human Pose Prediction for Robot Follow-Ahead",
-      "publisher": "IROS 2024",
+      "publisher": "IROS 2024 (Oral Presentation)",
       "releaseDate": "2024-10-14",
       "url": "https://qingyuan-jiang.github.io/iros2024_poseForecasting/",
       "summary": "We address the environmental-conditioned human pose prediction problem in the context of robot follow-ahead."
@@ -74,6 +64,56 @@
       "releaseDate": "2017-08-16",
       "url": "https://link.springer.com/chapter/10.1007/978-3-319-65292-4_65",
       "summary": "We design a noval parallel pinching and self-adapting grasping hand, TPM hand."
+    }
+  ],
+  "Work Experience": [
+    {
+      "name": "Plus.AI",
+      "position": "Reinfocement Learning for Autonomous Driving Internship",
+      "startDate": "2024-05-20",
+      "endDate": "2024-08-13",
+      "summary": "Offline reinforcement learning for autonomous driving. Deployed trained agent into the ROS system with ONNX and TensorRT.",
+      "highlights": ["Offline Reinforcement Learning", "autonomous driving", "ONNX", "TensorRT"]
+    },
+    {
+      "name": "SportsVision",
+      "position": "Founder",
+      "startDate": "2022-01",
+      "endDate": "2023-06",
+      "summary": "Automatic highlight extraction for basketball games",
+      "highlights": ["Video Analysis", "Action Recognition", "Multi-Object Tracking", "App Development"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Closed-loop Diffusion Planning",
+      "summary": "[paper] Diffusion-based Robot planning with Recursive Bayesian Filter [Title modified to ensure blind review] ",
+      "highlights": ["Diffusion models", "Closed-loop Motion Planning", "Importance Sampling", "Bayesian Filter", "Human Motion Prediction"],
+      "startDate": "2024-02",
+      "endDate": "2025-01",
+      "url": "/_projects/cldp.md"
+    },
+    {
+      "name": "Human Pose Prediction",
+      "summary": "[IROS 2024 Oral Presentation] Map-Aware Human Pose Prediction for Robot Follow-Ahead",
+      "highlights": ["Gated-Recurrent Network", "Human 3D Pose", "System Building"],
+      "startDate": "2023-06",
+      "endDate": "2024-03",
+      "url": "/_projects/rfa.md"
+    },
+    {
+      "name": "View Planning for Dynamic Objects",
+      "summary": "Online view planning metric on dynamic object for high-fidelity 3D reconstruction",
+      "highlights": ["Gated-Recurrent Network", "Human 3D Pose", "System Building"],
+      "startDate": "2022-06",
+      "endDate": "2023-03",
+    },
+    {
+      "name": "Manpulation for Fruit-Picking",
+      "summary": "RL-based manipulation for object grasping and fruit-picking with tactile feedback.",
+      "highlights": ["Reinforcement Learning", "Manipulation", "Motion Planning"],
+      "startDate": "2018-01",
+      "endDate": "2018-06"
     }
   ],
   "volunteer": [
@@ -143,16 +183,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "projects": [
-    {
-      "name": "SportsVision",
-      "summary": "Automatic highlight extraction for basketball games",
-      "highlights": ["Video Analysis", "Action Recognition", "Multi-Object Tracking", "App Development"],
-      "startDate": "2022-01",
-      "endDate": "2023-06",
-      "url": "/_projects/sportsvision.md"
     }
   ],
   "interests": [
