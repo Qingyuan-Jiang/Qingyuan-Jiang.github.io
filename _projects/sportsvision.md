@@ -5,7 +5,8 @@ description: Automatic highlight extraction for basketball games
 img: assets/img/projects/sportsvision/logo.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
+giscus_comments: true
 ---
 
 Although we've shut down this start-up company.
@@ -17,16 +18,20 @@ Shout out to Ruotian Yan, Jing Huang, Yuanyong Chen, Pengyu Chen.
 
 Here are a few interesting results.
 
-
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/sportsvision/nerf_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/sportsvision/results.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <div class="col-12 mt-3 mt-md-0">
+        {% include video.liquid path="https://youtu.be/0QOnp4KwGao" class="img-fluid rounded z-depth-1" controls=true autoplay=true style="width: 80%;" %}
     </div>
 </div>
 <div class="caption">
-    Left: A demo for using NeRF (2022). Right: Extracted highlight results from a drone perspective.
+    A demo for using NeRF (2022).
+</div>
+<div class="row mt-3">
+    <div class="col-12 mt-3 mt-md-0">
+        {% include video.liquid path="https://youtu.be/UL1WEeiNKIo" class="img-fluid rounded z-depth-1" controls=true autoplay=true style="width: 80%;" %}
+    </div>
+</div>
+<div class="caption">
+    Extracted highlight results from a drone perspective.
 </div>
 

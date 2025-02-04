@@ -6,6 +6,8 @@ img: assets/img/projects/rfa/thumbnail.png
 importance: 1
 category: research
 related_publications: true
+giscus_comments: true
+redirect: https://qingyuan-jiang.github.io/iros2024_poseForecasting/
 ---
 
 Check out our project [here](https://qingyuan-jiang.github.io/iros2024_poseForecasting/)
