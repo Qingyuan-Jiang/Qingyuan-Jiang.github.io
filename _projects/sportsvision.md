@@ -19,16 +19,19 @@ Shout out to Ruotian Yan, Jing Huang, Yuanyong Chen, Pengyu Chen.
 Here are a few interesting results.
 
 <div class="row mt-3">
-    <div class="col-12 mt-3 mt-md-0">
-        <iframe width="80%" height="315" src="https://www.youtube.com/embed/0QOnp4KwGao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="col-12 mt-3 mt-md-0 text-center">
+        <iframe width="80%" src="https://www.youtube.com/embed/0QOnp4KwGao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
     </div>
 </div>
 <div class="caption">
     A demo for using NeRF (2022).
 </div>
 <div class="row mt-3">
-    <div class="col-12 mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/UL1WEeiNKIo" class="img-fluid rounded z-depth-1" controls=true autoplay=true style="width: 80%;" %}
+    <div class="col-12 mt-3 mt-md-0 text-center">
+        <iframe width="80%" src="https://www.youtube.com/embed/UL1WEeiNKIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    </div>
     </div>
 </div>
 <div class="caption">
