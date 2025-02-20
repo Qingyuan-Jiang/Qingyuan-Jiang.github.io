@@ -7,7 +7,7 @@ tags: diffusion cv robotics
 categories: research notes
 featured: true
 
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 related_publications: true
 
@@ -319,9 +319,6 @@ $$
     \begin{split}
         \nabla_{\mathbf{x}} \log p(\mathbf{x}_t, y) &= \nabla_{\mathbf{x}} \log p(\mathbf{x}_t) + \nabla_{\mathbf{x}} \log p(y\mid\mathbf{x}_t) \\
             &= \nabla_{\mathbf{x}} \log p(\mathbf{x}_t) + \nabla_{\mathbf{x}} \log f_\phi(y\mid\mathbf{x}_t, t) \\
-            % &= - \frac{1}{\sqrt{1 - \bar{\alpha}_t}} \epsilon_\theta(\mathbf{x}_t, t) + \nabla_{\mathbf{x}} \log f_\phi(y\mid\mathbf{x}_t, t) \\
-        %     &= - \frac{1}{\sqrt{1 - \bar{\alpha}_t}} \left( \epsilon_\theta(\mathbf{x}_t, t) - \sqrt{1 - \bar{\alpha}_t} \nabla_{\mathbf{x}} \log f_\phi(y\mid\mathbf{x}_t, t) \right) \\
-        % \bar{\epsilon_\theta}(\mathbf{x}_t, t) &= \epsilon_\theta(\mathbf{x}_t, t) - \sqrt{1 - \bar{\alpha}_t} \nabla_{\mathbf{x}} \log f_\phi(y\mid\mathbf{x}_t, t) \\
     \end{split}
 \end{equation*}
 $$
