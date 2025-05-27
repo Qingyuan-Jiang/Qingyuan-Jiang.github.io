@@ -3,7 +3,7 @@ layout: distill
 title: ICRA interesting papers
 date: 2025-05-26 00:00:00
 description: 
-tags: diffusion cv robotics
+tags:  robotics
 categories: research notes
 featured: false
 
