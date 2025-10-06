@@ -2,7 +2,7 @@
 layout: page
 title: View Planning
 description: View Planning for High Fidelity 3D Reconstruction of a Moving Actor
-img: assets/img/projects/vp/thumbnail.png
+img: assets/img/projects/vp/teaser.png
 importance: 1
 category: research
 related_publications: true
@@ -18,6 +18,15 @@ In fact, it is actually 4D since it's a sequence of your motion in 3D, and your 
 
 The quality of the 3D reconstruction is highly dependent on the camera motion, i.e., how the drone moves around you.
 And the question is, **how should the drone move around you to maximize the quality of the 3D reconstruction**?
+
+<div class="row mt-3 justify-content-center">
+    <div class="col-md-6 col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/vp/teaser.png" class="img-fluid rounded z-depth-1" zoomable=true %} 
+    </div>
+</div>
+<div class="caption">
+    View planning problem for high fidelity 3D reconstruction of a dynamic actor.
+</div>
 
 Note that there are two main difficulties here:
 1. The surface of the actor is changing over time, and therefore we cannot use what we've observed in the past to reconstruct the present.
@@ -38,8 +47,8 @@ $$
 \end{equation}
 $$
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3 justify-content-center">
+    <div class="col-md-6 col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/vp/ppa_geometry_meaning.png" class="img-fluid rounded z-depth-1" zoomable=true %} 
     </div>
 </div>
